@@ -9,24 +9,24 @@ Dari sisi tampilan saya memakai
 #### Tailwindcss
 
 Sebagai utility-first’ CSS framework
-Link dokumentasinya ada (https://tailwindcss.com)[https://tailwindcss.com]
+Link dokumentasinya ada [https://tailwindcss.com](https://tailwindcss.com)
 
 #### Shadcn
 
 Beautifully designed yang sangat populer dan reusable
-Link dokumentasinya ada (Disini)[https://ui.shadcn.com/]
+Link dokumentasinya ada [https://ui.shadcn.com/](Disini)
 
 ## Content Reader
 
 #### MDX
 
 Content akan tertulis dalam extention .mdx
-Link detail ada (Disini)[https://nextjs.org/docs/pages/building-your-application/configuring/mdx]
+Link detail ada [https://nextjs.org/docs/pages/building-your-application/configuring/mdx](Disini)
 
 #### Next contentlayer
 
 Ini adalah package untuk render content
-Link packagenya ada (Disini)[https://contentlayer.dev/]
+Link packagenya ada [https://contentlayer.dev/](Disini)
 
 ## JS Runtime
 
@@ -42,11 +42,11 @@ Bun adalah runtime JavaScript baru yang dibangun dari awal untuk melayani ekosis
 
 #### iconify
 
-(https://iconify.design/)[https://iconify.design/]
+[https://iconify.design/](https://iconify.design/)
 
 #### lucide
 
-(https://lucide.dev/icons/)[https://lucide.dev/icons/]
+[https://lucide.dev/icons/](https://lucide.dev/icons/)
 
 ## Package Install
 
