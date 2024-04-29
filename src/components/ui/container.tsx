@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Container = ({
-  height,
+  height = '100px',
   placeholder = 'Template',
 }: {
   height: string
@@ -10,7 +10,7 @@ const Container = ({
   return (
     <div className="w-full rounded-xl bg-white/5 p-4 ring-1 ring-inset ring-gray-900/10 dark:ring-white/10 lg:-m-4">
       <div
-        className={`aspect-w-16 flex items-center justify-center h-[${height}] aspect-h-10 sm:aspect-h-6 lg:aspect-h-4 relative overflow-hidden rounded-lg border border-dashed border-gray-900/10 dark:border-white/10`}
+        className={`aspect-w-16 aspect-h-10 sm:aspect-h-6 lg:aspect-h-4 relative flex h-[200px] items-center justify-center overflow-hidden rounded-lg border border-dashed border-gray-900/10 dark:border-white/10`}
       >
         <div className="text-3xl font-bold text-slate-300">{placeholder}</div>
         <svg

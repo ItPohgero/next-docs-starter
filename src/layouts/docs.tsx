@@ -7,7 +7,6 @@ import { Else, If, Then } from 'react-if'
 import { useParams } from 'next/navigation'
 import Drawer from 'src/components/ui/drawer'
 import { SearchDocs } from 'src/components/ui/searchDocs'
-import Container from 'src/components/ui/container'
 import RightContent from 'src/components/ui/right-content'
 
 interface DataList {
