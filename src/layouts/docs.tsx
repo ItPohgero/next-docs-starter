@@ -34,11 +34,11 @@ function DocsCard(doc: DocList) {
         <Else>
           <Link href={doc.url} legacyBehavior>
             <div
-              className={`${doc.url === `/docs/${doc?.activePath}` ? 'border-l border-lime-800' : 'border-l'} group cursor-pointer py-1 text-slate-600`}
+              className={`${doc.url === `/docs/${doc?.activePath}` ? 'border-l border-lime-800' : 'border-l'} group cursor-pointer pt-2 text-slate-600`}
             >
               <div className="pl-4 capitalize group-hover:text-slate-800">
                 <div>{doc.title}</div>
-                <time className="text-[7pt]">up: {doc.date}</time>
+                <div className="pl-3 text-[6pt]">up: {doc.date}</div>
               </div>
             </div>
           </Link>
@@ -66,7 +66,7 @@ const DocsLayout = (props: PropsWithChildren) => {
     return acc
   }, [])
   return (
-    <div className="relative mx-auto grid  max-w-4xl grid-cols-12 gap-4 pt-20 lg:max-w-7xl">
+    <div className="relative mx-auto grid  max-w-4xl grid-cols-12 gap-4 pt-4 lg:max-w-7xl">
       <div className="absolute right-4 top-4 block lg:hidden">
         <Drawer>asd</Drawer>
       </div>
@@ -79,7 +79,7 @@ const DocsLayout = (props: PropsWithChildren) => {
         ))}
       </div>
       <div className="col-span-12 p-4 lg:col-span-7">{props?.children}</div>
-      <div className="order-first col-span-12 hidden w-full lg:order-last lg:col-span-2 lg:block">
+      <div className="order-first col-span-12 hidden w-full pt-6 lg:order-last lg:col-span-2 lg:block">
         <RightContent />
       </div>
     </div>
