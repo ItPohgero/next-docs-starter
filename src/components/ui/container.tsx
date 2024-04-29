@@ -1,12 +1,6 @@
 import React from 'react'
 
-const Container = ({
-  height = '100px',
-  placeholder = 'Template',
-}: {
-  height: string
-  placeholder?: string
-}) => {
+const Container = ({ placeholder = 'Template' }: { placeholder?: string }) => {
   return (
     <div className="w-full rounded-xl bg-white/5 p-4 ring-1 ring-inset ring-gray-900/10 dark:ring-white/10 lg:-m-4">
       <div

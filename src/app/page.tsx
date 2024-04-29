@@ -21,14 +21,14 @@ const Page = () => {
         </div>
       </div>
       <div className="h-12" />
-      <Container height="200px" />
+      <Container />
       <div className="h-12" />
       <div className="grid grid-cols-2 gap-4">
-        <Container height="200px" />
-        <Container height="200px" />
+        <Container />
+        <Container />
       </div>
       <div className="h-12" />
-      <Container height="400px" />
+      <Container />
     </div>
   )
 }
