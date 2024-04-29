@@ -9,24 +9,24 @@ Dari sisi tampilan saya memakai
 #### Tailwindcss
 
 Sebagai utility-first’ CSS framework
-Link dokumentasinya ada [https://tailwindcss.com](https://tailwindcss.com)
+Link dokumentasinya ada [Disini](https://tailwindcss.com)
 
 #### Shadcn
 
 Beautifully designed yang sangat populer dan reusable
-Link dokumentasinya ada [https://ui.shadcn.com/](Disini)
+Link dokumentasinya ada [Disini](https://ui.shadcn.com/)
 
 ## Content Reader
 
 #### MDX
 
 Content akan tertulis dalam extention .mdx
-Link detail ada [https://nextjs.org/docs/pages/building-your-application/configuring/mdx](Disini)
+Link detail ada [Disini](https://nextjs.org/docs/pages/building-your-application/configuring/mdx)
 
 #### Next contentlayer
 
 Ini adalah package untuk render content
-Link packagenya ada [https://contentlayer.dev/](Disini)
+Link packagenya ada [Disini](https://contentlayer.dev/)
 
 ## JS Runtime
 
