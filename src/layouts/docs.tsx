@@ -8,6 +8,7 @@ import { useParams } from 'next/navigation'
 import Drawer from 'src/components/ui/drawer'
 import { SearchDocs } from 'src/components/ui/searchDocs'
 import Container from 'src/components/ui/container'
+import RightContent from 'src/components/ui/right-content'
 
 interface DataList {
   group: any
@@ -78,7 +79,9 @@ const DocsLayout = (props: PropsWithChildren) => {
         ))}
       </div>
       <div className="col-span-12 p-4 lg:col-span-7">{props?.children}</div>
-      <div className="order-first col-span-12 w-full lg:order-last lg:col-span-2"></div>
+      <div className="order-first col-span-12 hidden w-full lg:order-last lg:col-span-2 lg:block">
+        <RightContent />
+      </div>
     </div>
   )
 }
