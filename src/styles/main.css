@@ -1,0 +1,15 @@
+:root {
+  --grid-color: #e2e8f0; /* Warna kotak pada mode terang */
+  --grid-color-dark: #f1f5f9; /* Warna kotak pada mode gelap */
+}
+
+.landing-grid {
+  background-size: 50px 50px; /* Panjang dan lebar kotak */
+  background-image: linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
+}
+
+.dark .landing-grid {
+  background-image: linear-gradient(to right, var(--grid-color-dark) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-color-dark) 1px, transparent 1px);
+}
