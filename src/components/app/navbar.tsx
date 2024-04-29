@@ -13,7 +13,6 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu'
-import Image from 'next/image'
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -67,23 +66,23 @@ export function Navbar() {
                       className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
                       href="/"
                     >
-                      logo
-                      <div className="mb-2 mt-4 text-lg font-medium">shadcn/ui</div>
+                      Docs Starter
+                      <div className="mb-2 mt-4 text-lg font-medium">itpohgero</div>
                       <p className="text-sm leading-tight text-muted-foreground">
-                        Beautifully designed components that you can copy and paste into your apps.
-                        Accessible. Customizable. Open Source.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nostrum
+                        quia. Optio.
                       </p>
                     </a>
                   </NavigationMenuLink>
                 </li>
                 <ListItem href="/docs" title="Introduction">
-                  Re-usable components built using Radix UI and Tailwind CSS.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </ListItem>
                 <ListItem href="/docs/installation" title="Installation">
-                  How to install dependencies and structure your app.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </ListItem>
                 <ListItem href="/docs/primitives/typography" title="Typography">
-                  Styles for headings, paragraphs, lists...etc
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </ListItem>
               </ul>
             </NavigationMenuContent>

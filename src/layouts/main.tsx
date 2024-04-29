@@ -1,3 +1,4 @@
+import { CodeXml } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React, { PropsWithChildren } from 'react'
@@ -26,7 +27,9 @@ const LayoutMain = ({ children }: PropsWithChildren) => {
             </div>
           </div>
           <div>
-            <div>asd</div>
+            <a href="https://itpohgero.com">
+              <CodeXml />
+            </a>
           </div>
         </div>
       </div>

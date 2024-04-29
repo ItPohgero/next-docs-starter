@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link'
 import { compareDesc, format, parseISO } from 'date-fns'
 import { allDocs, Docs } from 'contentlayer/generated'
